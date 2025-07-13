@@ -72,3 +72,6 @@ Internal division of trainng data is used to split data into train, validation a
 - X_train_internal, y_train_internal → For training and cross-validation
 - X_val, y_val → For model selection & hyperparameter tuning.
 - X_test_internal, y_test_internal → For final internal evaluation.
+
+***Note***
+**To improve model performance, a logarithmic transformation was applied to the target variable (apartment price) during training. To evaluate the model on the original price scale, the predictions should be exponentiated before calculating error metrics like RMSE. This ensures the RMSE reflects real-world price differences in euros.**
