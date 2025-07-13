@@ -3,16 +3,17 @@
 This project used **Ridge Regression** in machine learning to build a model explaining the prices of appartments based on the training sample and generate predictions for all observations from the test sample.
 
 ## Project Structure
-apartment-price-prediction/
-├── data/                  
-│   ├── appartments_train.csv
-│   ├── appartments_test.csv
-├── ridge_model.joblib           
+```apartment-price-prediction/
+├── data/
+│    ├── appartments_train.csv
+│    ├── appartments_test.csv
+├── ridge_model.joblib
 ├── predictions.csv
-├── apartments_regression.ipynb             
-├── README.md              
-├── requirements.txt       
+├── apartments_regression.ipynb
+├── README.md
+├── requirements.txt
 └── .gitignore
+```
 
 ### Data features (columns)
 The dataset consists of apartment records with the following features:
